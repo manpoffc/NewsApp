@@ -7,7 +7,7 @@ const Header = () => {
         <div className='flex justify-center  items-center'>
             <div className='flex w-1/2 justify-center space-x-24 p-5 text-xl font-medium text-gray-800  '>
             <div className=' cursor-pointer' onClick={() => router.push('/')}>Home</div>
-            <div className=' cursor-pointer' onClick={() => router.push('/feed')}>Feed</div>
+            <div className=' cursor-pointer' onClick={() => router.push('/feed/1')}>Feed</div>
             <div className=' cursor-pointer text-blue-500 ' onClick={() => window.location.href='https://twitter.com/pocoman0'}>Twitter</div>
             
             </div>
